@@ -1,0 +1,75 @@
+body{
+			display:flex;
+			flex-wrap:wrap;
+		}
+	body > *{
+		width:100%;
+		/*boder:1px solid #000;*/
+		border-bottom-width:0;
+		box-sizing:border-box;
+		/*text-alingn:center;*/
+	}
+
+	body> * {
+	width: 100%;
+	/border:1px solid #000;/
+	border-bottom-width: 0;
+	box-sizing: border-box;
+	/text-align: center;/
+}
+body> *:last-child{
+	border-bottom-width: 1px;
+}
+
+header, footer{
+	min-height:120px;	/*altura minima*/
+	background:#4AB25C;	/*acolor de fondo*/
+}
+
+header{
+	width: 100%; /*anchura*/
+	margin:0px;	/*margen*/
+	text-align:center;	/*alinea el texto*/
+	color:black;	/*color de texto*/
+}
+
+header img{
+	float:right;
+}
+
+aside {
+	width: 25%;
+	/*border: 0 solid #000: */;
+	border-right-width: 1px;
+	background:white;
+}
+
+nav{
+	font-family:arial,herlvetica,sans-serif;	/*tipo de fuente*/
+	background:green;	/*color de fondo*/
+	height:50px;	/*altura*/
+	color:white;	/*color de texto*/
+}
+
+
+nav ul li{
+	float:right;	/*ubicacion*/
+	list-style:none;	/*quita las viñetas*/
+	margin:10px;	/*margen*/
+	line-height:5px;	/*distancia*/
+}
+.Articulos{
+	color:black;
+	margin-top:2px;
+	margin-bottom:2px;
+	padding-bottom:2px;
+	border-bottom:1px solid white;
+	padding:5px;
+}
+.cajon .body {
+	width:75%;
+	background:#4AB25C;
+}
+.cajon {
+	display:flex;
+}
